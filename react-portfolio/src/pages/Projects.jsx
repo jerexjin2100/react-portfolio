@@ -3,9 +3,8 @@ import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
   return (
-    <section className="min-h-screen px-6 py-16 pt-20 text-white bg-gray-950">
-      
-      <h1 className="mb-10 text-4xl font-bold text-center">
+    <section className="min-h-screen px-6 py-16 pt-20 text-gray-900 transition-colors duration-300 bg-white dark:bg-gray-950 dark:text-white">
+      <h1 className="mb-10 text-4xl font-bold text-center bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-pink-400">
         Projects
       </h1>
 

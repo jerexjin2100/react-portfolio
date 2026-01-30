@@ -1,35 +1,45 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"
 
 function Home() {
   return (
-    <section className="min-h-screen flex items-center bg-gray-950 text-white">
-      <div className="max-w-6xl mx-auto px-6">
-        <p className="text-blue-400 text-sm mb-2">
+    <section className="flex items-center min-h-screen text-gray-900 transition-colors duration-300 bg-white dark:bg-gray-950 dark:text-white">
+      <div className="max-w-6xl px-6 mx-auto">
+        <p className="mb-2 text-sm text-blue-500 dark:text-blue-400">
           Hi, my name is
         </p>
 
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <h1 className="mb-4 text-4xl font-bold md:text-6xl">
           Jeremy John Robert
         </h1>
 
-        <h2 className="text-3xl md:text-5xl font-semibold text-gray-400 mb-6">
+        <h2 className="mb-6 text-3xl font-semibold bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent md:text-5xl dark:from-blue-400 dark:to-pink-400">
           Frontend Developer
         </h2>
 
-        <p className="max-w-xl text-gray-400 mb-8">
-          I build responsive and user-friendly web applications using
-          React, Tailwind CSS, and modern JavaScript.
+        <p className="max-w-xl mb-8 text-gray-700 dark:text-gray-400">
+          I build responsive and user-friendly web applications using React,
+          Tailwind CSS, and modern JavaScript.
         </p>
 
         <div className="flex gap-4">
-          <NavLink to="/projects" className="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded font-medium">
-         View Projects
+          <NavLink
+            to="/projects"
+            className="px-6 py-3 font-medium text-white transition bg-blue-500 rounded hover:bg-blue-600"
+          >
+            View Projects
           </NavLink>
 
-        <NavLink to="/contact" className="px-6 py-3 border border-gray-600 hover:border-white rounded font-medium">
-          Contact Me
-        </NavLink>
+          <NavLink
+            to="/contact"
+            className="px-6 py-3 font-medium transition border-2 border-blue-500 text-blue-600 rounded hover:bg-blue-50 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-900"
+          >
+            Contact Me
+          </NavLink>
+        </div>
 
+        {/* Debug block – remove later */}
+        <div className="p-4 mt-10 text-black bg-gray-200 rounded dark:bg-black dark:text-white">
+          Dark / Light mode is working ✅
         </div>
       </div>
     </section>
