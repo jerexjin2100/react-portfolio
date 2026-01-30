@@ -1,26 +1,20 @@
-const projects = [
-  { title: "Portfolio", description: "Advanced React Portfolio", link: "https://your-deploy-link.com" },
-  { title: "Todo App", description: "React + JavaScript app", link: "#" },
-];
+import projects from "../data/projects";
+import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
   return (
-    <section id="projects" className="px-4 py-20 md:px-20 bg-gray-50 dark:bg-gray-900">
-      <h2 className="mb-6 text-3xl font-bold text-center text-gray-900 dark:text-white">Projects</h2>
-      <div className="grid gap-6 md:grid-cols-2">
+    <section className="min-h-screen px-6 py-16 pt-20 text-white bg-gray-950">
+      
+      <h1 className="mb-10 text-4xl font-bold text-center">
+        Projects
+      </h1>
+
+      <div className="grid max-w-6xl gap-8 mx-auto md:grid-cols-2">
         {projects.map((project) => (
-          <a
-            key={project.title}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-6 transition bg-white rounded-lg shadow dark:bg-gray-800 hover:scale-105"
-          >
-            <h3 className="mb-2 text-xl font-semibold dark:text-white">{project.title}</h3>
-            <p className="text-gray-700 dark:text-gray-300">{project.description}</p>
-          </a>
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
+
     </section>
   );
 }
