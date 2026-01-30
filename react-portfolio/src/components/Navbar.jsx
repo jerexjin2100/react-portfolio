@@ -17,13 +17,7 @@ function Navbar() {
         </NavLink>
         <NavLink to="/contact" className={linkClasses}>Contact</NavLink>
 
-        {/* Dark/Light Mode Toggle */}
-        <button
-          onClick={() => document.documentElement.classList.toggle("dark")}
-          className="px-3 py-1 transition bg-gray-200 rounded dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
-        >
-          Toggle Dark
-        </button>
+        
       </div>
 
     </nav>

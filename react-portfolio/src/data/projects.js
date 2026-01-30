@@ -5,8 +5,8 @@ const projects = [
   description:
     "A responsive personal portfolio built with React and Tailwind CSS. Features multi-page routing, reusable components, and a structured layout to showcase projects and skills.",
   tech: ["React", "Tailwind CSS", "React Router"],
-  github: "https://github.com/yourname/react-portfolio",
-  live: "https://your-live-link.vercel.app"
+  github: "https://github.com/jerexjin2100/react-portfolio",
+  live: "https://react-portfolio-6mq8.vercel.app/"
   },
 
   {

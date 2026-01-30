@@ -16,4 +16,4 @@ A personal portfolio website built with React and Tailwind CSS to showcase proje
 - Vite
 
 ## Live Demo
-(Will be added after deployment)
+https://react-portfolio-6mq8.vercel.app/
