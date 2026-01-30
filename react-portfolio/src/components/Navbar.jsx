@@ -8,7 +8,7 @@ const linkClasses = ({ isActive }) =>
 function Navbar({ toggleTheme, theme }) {
   return (
     <nav className="flex items-center justify-between px-6 py-4 text-gray-900 bg-white shadow-md dark:bg-gray-900 dark:text-white">
-      <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent">MyPortfolio</h1>
+      <h1 className="text-2xl font-bold text-transparent bg-linear-to-r from-blue-600 to-pink-600 bg-clip-text">MyPortfolio</h1>
 
       <div className="flex items-center space-x-6">
         <NavLink to="/" className={linkClasses}>Home</NavLink>
@@ -19,7 +19,7 @@ function Navbar({ toggleTheme, theme }) {
 
         <button
           onClick={toggleTheme}
-          className="px-4 py-2 ml-4 transition bg-blue-500 text-white rounded-lg hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
+          className="px-4 py-2 ml-4 text-white transition bg-blue-500 rounded-lg hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
         >
           {theme === "dark" ? "☀️ Light" : "🌙 Dark"}
         </button>

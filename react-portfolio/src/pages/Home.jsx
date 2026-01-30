@@ -12,7 +12,7 @@ function Home() {
           Jeremy John Robert
         </h1>
 
-        <h2 className="mb-6 text-3xl font-semibold bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent md:text-5xl dark:from-blue-400 dark:to-pink-400">
+        <h2 className="mb-6 text-3xl font-semibold text-transparent bg-linear-to-r from-blue-600 to-pink-600 bg-clip-text md:text-5xl dark:from-blue-400 dark:to-pink-400">
           Frontend Developer
         </h2>
 
@@ -31,16 +31,13 @@ function Home() {
 
           <NavLink
             to="/contact"
-            className="px-6 py-3 font-medium transition border-2 border-blue-500 text-blue-600 rounded hover:bg-blue-50 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-900"
+            className="px-6 py-3 font-medium text-blue-600 transition border-2 border-blue-500 rounded hover:bg-blue-50 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-900"
           >
             Contact Me
           </NavLink>
         </div>
 
-        {/* Debug block – remove later */}
-        <div className="p-4 mt-10 text-black bg-gray-200 rounded dark:bg-black dark:text-white">
-          Dark / Light mode is working ✅
-        </div>
+        
       </div>
     </section>
   )

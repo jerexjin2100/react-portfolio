@@ -16,7 +16,7 @@ function About() {
           continuously expanding my skill set toward full-stack development.
         </p>
 
-        <h2 className="mb-6 text-3xl font-bold bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-pink-400">
+        <h2 className="mb-6 text-3xl font-bold bg-linear-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-pink-400">
           Skills
         </h2>
 
