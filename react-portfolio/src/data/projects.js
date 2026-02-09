@@ -23,9 +23,9 @@ const projects = [
   title: "Job Application Tracker",
   description:
     "A frontend application to track job applications with status updates, notes, and filtering. Built to practice CRUD operations and component-based architecture.",
-  tech: ["React", "JavaScript"],
-  github: "#",
-  live: "#"
+  tech: ["React", "JavaScript","Tailwind CSS"],
+  github: "https://github.com/jerexjin2100/job-tracker",
+  live: "https://job-tracker-eight-kappa.vercel.app/"
 }
 
 ]
